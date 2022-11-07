@@ -1,0 +1,67 @@
+:root{
+    --text-color: #000;
+    --secound-color: #413220;
+    --main-color: #2c2504;
+    --big-font: 5rem;
+    --h2-font: 3rem;
+    --p-font: 1.1rem;
+}
+
+body{
+    color: bisque;
+}
+
+section{
+    padding: 100px 18%;
+}
+
+.home{
+    align-items: center;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    background: url(/img/bgsby.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 4rem;
+    color: bisque;
+}
+
+.home-text h1{
+    margin: 10px 0px 25px;
+    font-size: var(--big-font);
+    line-height: 1;
+    font-weight: 500;
+}
+
+.home-text h5{
+    margin-bottom: 23px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+span{
+    color: bisque;
+}
+
+.home-text h3{
+    color: bisque;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.home-text p{
+    font-size: var(--p-font);
+    color: bisque;
+    line-height:  28px;
+    margin-bottom: 20px;
+}
+
+.home-img{
+    max-width: 100%;
+    width: 30px;
+    height: auto;
+}

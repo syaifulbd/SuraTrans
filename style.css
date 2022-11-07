@@ -1,0 +1,46 @@
+.search-form {
+    background-color: black;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    height: 500px;
+    width: 700px;
+    padding: 25px 25px 25px 25px;
+}
+
+.search-form label {
+    color: white;
+}
+
+.btn-primary { 
+    margin-top: 10px;
+}
+
+.bg-img {
+    min-height: 50%;
+    min-width: 1024px;
+
+    width: 100%;
+    height: auto;
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+
+.btn-back {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+.card {
+    float: left;
+    height: 500px;
+    width: 700px;
+    margin: 25px 25px 25px 25px;
+    padding: 25px 25px 25px 25px;
+}
+
